@@ -1,0 +1,119 @@
+/* Reset some default spacing */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navbar styling */
+.navbar {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #0d6efd !important;
+}
+
+.nav-link:hover {
+    color: #0a58ca !important;
+}
+
+/* Hero section */
+.hero {
+    background: url('https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.hero p.lead {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Features */
+#features h2 {
+    font-weight: bold;
+}
+
+.feature-icon i {
+    font-size: 3.5rem;
+    color: #0d6efd;
+    transition: transform 0.3s;
+}
+
+.feature-icon i:hover {
+    transform: scale(1.2);
+}
+
+#features h5 {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+/* About section */
+#about p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+/* Contact form */
+#contact input,
+#contact textarea {
+    border-radius: 10px;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+#contact button {
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+/* Responsive spacing */
+section {
+    padding: 60px 0;
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    #about img {
+        margin-top: 30px;
+    }
+}
